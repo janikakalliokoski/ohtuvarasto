@@ -68,4 +68,3 @@ class TestVarasto(unittest.TestCase):
     def test_oikea_str_funktio(self):
         mjono = self.varasto.__str__()
         self.assertAlmostEqual(mjono, "saldo = 0, vielä tilaa 10")
-
