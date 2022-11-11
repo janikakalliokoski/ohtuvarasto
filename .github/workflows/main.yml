@@ -28,5 +28,3 @@ jobs:
         run: bash <(curl -s https://codecov.io/bash)
       - name: Pylint test
         run: poetry run pylint src
-        
-
