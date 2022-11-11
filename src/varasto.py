@@ -1,4 +1,4 @@
-class Varasto: # pylint: disable=missing-module-docstring,missing-class-docstring
+class Varasto: # pylint: disable=missing-module-docstring
     def __init__(self, tilavuus, alku_saldo = 0):
 
         self.tilavuus = abs(tilavuus)
